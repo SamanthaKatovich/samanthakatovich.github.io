@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+.projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -266,6 +268,22 @@
         <section id="projects">
             <h2>Projects</h2>
             <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Pacman AI: Multi-Agent Search & Reinforcement Learning</h3>
+                    <p>Comprehensive AI implementation featuring search algorithms (DFS, BFS, A*, UCS), adversarial agents (Minimax, Alpha-Beta, Expectimax), probabilistic inference, and Q-learning. Developed intelligent agents that navigate complex environments and learn optimal strategies.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">Search Algorithms</span>
+                        <span class="tech-tag">Reinforcement Learning</span>
+                        <span class="tech-tag">Game Theory</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/samanthakatovich/pacman-ai" class="btn btn-primary">View Project</a>
+                        <a href="https://github.com/samanthakatovich/pacman-ai#readme" class="btn btn-secondary">Documentation</a>
+                    </div>
+                </div>
+
                 <div class="project-card">
                     <h3>NYC Taxi Trip Analysis with PySpark</h3>
                     <p>Large-scale data analysis of NYC taxi trips using distributed computing. Implemented ETL pipelines analyzing millions of trip records to identify pickup patterns, active locations, and temporal trends across boroughs using PySpark DataFrames.</p>
